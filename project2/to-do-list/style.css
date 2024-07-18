@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to top,rgb(228, 192, 124),
+    rgba(218, 229, 133, 0), rgba(75, 209, 211, 0.31));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0.1;
+    background-color: lightgrey;
+}
+
+.head{
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-style: solid;
+    border-width: 2px;
+    margin-top: 0;
+        
+}
+.done{
+    order: 1;
+}
+
